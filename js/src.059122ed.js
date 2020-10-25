@@ -9,4 +9,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"../templates/timer-markup.hbs":"cbD9"}],"Focm":[function(require,module,exports) {
 "use strict";require("./ js/create-timer.js");
 },{"./ js/create-timer.js":"jGhT"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-timer/src.55cf4846.js.map
+//# sourceMappingURL=/goit-js-hw-11-timer/src.059122ed.js.map
