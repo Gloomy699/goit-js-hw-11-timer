@@ -4,27 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-timer/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gloomy699/goit-js-hw-11-timer.git"
   },
-  "author": "",
+  "author": "Gloomy699",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Gloomy699/goit-js-hw-11-timer/issues"
   },
-  "homepage": "https://github.com/Gloomy699/goit-js-hw-11-timer#readme",
+  "homepage": "https://Gloomy699.github.io/goit-js-hw-11-timer",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-custom-dist-structure": "^1.1.16",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1"
   },
   "dependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "handlebars": "^4.7.6"
   },
-   "customDistStructure": {
+  "customDistStructure": {
     "config": {
       ".css": "css",
       ".js": "js",
