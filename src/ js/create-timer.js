@@ -51,5 +51,5 @@ const currentDate = new Date();
 
 const timerOne = new CountdownTimer({
 	selector: 'timer-1',
-    targetDate: new Date(currentDate.getFullYear(), 10-1 , 30),
+    targetDate: new Date(currentDate.getFullYear(), 9 , 30),
 });
